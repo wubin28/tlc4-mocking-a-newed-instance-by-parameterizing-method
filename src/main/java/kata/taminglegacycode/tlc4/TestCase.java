@@ -2,7 +2,10 @@ package kata.taminglegacycode.tlc4;
 
 public class TestCase {
     public int run() {
-        TestResult testResult = new TestResult();
+        return run(new TestResult());
+    }
+
+    public int run(TestResult testResult) {
 
         // run the tests and populate the test result
 
